@@ -60,9 +60,17 @@ In your project, go to the debugger and hit the little gear icon and choose _Ext
 }
 ```
 
-Make the necessary configuration using the [supported launch configuration](#supported-launchjson-settings) options and save the _launch.json_ configuration file.
+Add the configuration needed from the [supported launch configuration options](#supported-launchjson-settings) and save the _launch.json_ file.
 
-### Supported launch.json settings:
+![CONFIG Demo GIF](images/config.gif)
+
+### Debugging
+
+
+
+
+
+## Supported launch.json settings:
 
 | Property | Type | Description | Default Value |
 | --- | --- | --- | --- |
