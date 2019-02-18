@@ -35,6 +35,14 @@
 1. [Install the extension](https://marketplace.visualstudio.com/items?itemName=adobe.extendscript-debug)
 2. Restart VS Code and open the folder containing the project you want to work on.
 
+## Using the debugger
+
+When your launch config is set up, you can debug your project. Pick a launch config from the dropdown on the Debug pane in Code. Press the play button or F5 to start.
+
+### Configuration
+
+In your project, go to the debugger and hit the little gear icon and choose _ExtendScript Debug_. A new launch configuration will be created for you with two configurations:
+
 ## Troubleshooting
 The following steps are good standard troubleshooting, as well as troubleshooting "**Error ##15 Can't initialize target.**"
 
