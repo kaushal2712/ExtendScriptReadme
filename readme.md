@@ -79,6 +79,8 @@ Add the configuration needed from the [supported launch configuration options](#
 	* Restart
 	* Stop
 
+![DEBUG Demo GIF](images/debug.gif)
+
 ## Troubleshooting
 The following steps are good standard troubleshooting, as well as troubleshooting "**Error ##15 Can't initialize target.**"
 
