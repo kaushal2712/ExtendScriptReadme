@@ -34,3 +34,15 @@
 ## Getting Started
 1. [Install the extension](https://marketplace.visualstudio.com/items?itemName=adobe.extendscript-debug)
 2. Restart VS Code and open the folder containing the project you want to work on.
+
+## Troubleshooting
+
+### I am getting Error ##15 Can't initialize target. What's wrong?
+
+* Make sure the ESTK stand-alone application is closed
+* Close the target application (example; Photoshop)
+* Close Visual Studio Code
+* Make sure there are no VS Code Helpers processes in the Activity Monitor (Mac) or Task Manager (Windows)
+* Restart Visual Studio Code
+* Does it work then?
+* If not, does a reboot help?
