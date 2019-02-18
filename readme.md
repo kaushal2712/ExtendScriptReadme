@@ -66,7 +66,18 @@ Add the configuration needed from the [supported launch configuration options](#
 
 ### Debugging
 
-
+* With your .jsx file open and the configuration done click on "Select Target Application"
+* Choose the application that your .jsx file is compatible with
+	* `Note`: You may also edit the launch.json to launch or run your target application automatically.
+* If the application is not currently running you will be prompted to open it by typing y and Enter.
+* Click the green "Play" button.
+* A new UI bar will appear at the top of the VSCode window with arrow buttons for:
+	* Continue
+	* Step Over
+	* Step Into
+	* Step Out
+	* Restart
+	* Stop
 
 ## Troubleshooting
 The following steps are good standard troubleshooting, as well as troubleshooting "**Error ##15 Can't initialize target.**"
