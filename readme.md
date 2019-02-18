@@ -41,7 +41,24 @@ When your launch config is set up, you can debug your project. Pick a launch con
 
 ### Configuration
 
-In your project, go to the debugger and hit the little gear icon and choose _ExtendScript Debug_. A new launch configuration will be created for you with two configurations:
+In your project, go to the debugger and hit the little gear icon and choose _ExtendScript Debug_. A new launch configuration will be created for you with following configurations:
+```
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "1.0.0",
+    "configurations": [
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "Ask for script name",
+            "program": "${workspaceFolder}/${command:AskForScriptName}",
+            "stopOnEntry": false
+        }
+    ]
+}
+```
 
 ## Troubleshooting
 The following steps are good standard troubleshooting, as well as troubleshooting "**Error ##15 Can't initialize target.**"
