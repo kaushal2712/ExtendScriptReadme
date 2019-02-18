@@ -30,3 +30,7 @@
 * OMV
 * Functions/Auto-Completion
 * Scripts Panel
+
+## Getting Started
+1. [Install the extension](https://marketplace.visualstudio.com/items?itemName=adobe.extendscript-debug)
+2. Restart VS Code and open the folder containing the project you want to work on.
