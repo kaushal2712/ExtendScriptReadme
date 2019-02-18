@@ -70,7 +70,7 @@ Add the configuration needed from the [supported launch configuration options](#
 * Choose the application that your .jsx file is compatible with
 	* `Note`: You may also edit the launch.json to launch or run your target application automatically.
 * If the application is not currently running you will be prompted to open it by typing y and Enter.
-* Click the green "Play" button.
+* Add breakpoints and click the green "Play" button.
 * A new UI bar will appear at the top of the VSCode window with arrow buttons for:
 	* Continue
 	* Step Over
