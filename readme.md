@@ -81,6 +81,25 @@ Add the configuration needed from the [supported launch configuration options](#
 
 ![DEBUG Demo GIF](images/debug.gif)
 
+## Notes
+
+- This Release is for MacOS only. A Windows version will follow in about two weeks. It's possible to install it in Windows also.
+- The debugger works like [other VSCode debugging](https://code.visualstudio.com/docs/editor/debugging).
+- Please uninstall any previous extensions related to ExtendScript as those extensions can conflict with breakpoints functionality.
+- VSCode ESDebugger extension and ESTK application can’t run simultaneously.
+- VSCode does not recognize #target and #targetengine commands.
+- The "Watch" section of Debug mode does nothing.
+
+## Resources
+
+- You may also find it helpful to install this [ExtendScript](https://marketplace.visualstudio.com/items?itemName=hennamann.jsx) VSCode extension
+- [Official VSCode Debugging Documentation](https://code.visualstudio.com/docs/editor/debugging)
+
+## Forums
+
+- [Creative Cloud Developer Prerelease Forums](https://forums.adobeprerelease.com/exmancmd/categories/estkvsc)
+
+
 ## Troubleshooting
 The following steps are good standard troubleshooting, as well as troubleshooting "**Error ##15 Can't initialize target.**"
 
