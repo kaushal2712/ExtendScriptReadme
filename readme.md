@@ -81,6 +81,34 @@ Add the configuration needed from the [supported launch configuration options](#
 
 ![DEBUG Demo GIF](images/debug.gif)
 
+## Batch Export JSXBIN
+Note: In case of batch “Export to JSXBIN”, on Windows platform “electron version 2.0.12” is required. Use this command to get electron:
+
+```npm install -g electron@2.0.12```
+ 
+The command on windows should be:
+
+```electron <path to exportToJSX.js> [options] [filename/directory]```
+
+## Supported launch.json settings:
+
+| Property | Type | Description | Default Value |
+| --- | --- | --- | --- |
+| `program` | string | Absolute path to a script. | *${workspaceFolder}/${command:AskForScriptName}* |
+| `cwd` | string | Absolute path to the directory of the program being debugged. | *${workspaceFolder}* |
+| `targetSpecifier` | string | The target specifier in which the program will be debugged. | *empty* |
+| `engineName` | string | The engine name in which the program will be debugged. | *empty* |
+| `targetStartedSession` | boolean | Session target started. | *false* |
+| `breakXML` | string | The break XML in case target started the session. | *""* |
+| `excludes` | array | Excludes from variable display. Can be any combination of 'undefined', 'builtin', 'Function', 'prototype'. | *[ "undefined", "builtin", "Function", "prototype" ]* |
+| `maxArrayElements` | number | Enter the maximum number of array elements to display. | *20* |
+| `trace` | boolean | Enable logging of the ExtendScript debug session. | *true* |
+| `traceString` | string | Enable extended logging of the ExtendScript debug adapter. Should be one of 'V', 'L', 'W', 'E'. This stands for Verbose, Log, Warn and Error respectively. | *""* |
+| `logFile` | string | Enable logging of the ExtendScript debug session in this log file(Absolute Path). | *""* |
+| `dontBreakOnErrors` | boolean | Do Not Break on Guarded Exceptions | *true* |
+| `debugLevel` | number | Specify Debug Level: 0 - No Break, 1 - Break, 2 - Immediate Break | *1* |
+| `stopOnEntry` | boolean | Should be true if session should break immediately. | *false* |
+
 ## Notes
 
 - This Release is for MacOS only. A Windows version will follow in about two weeks. It's possible to install it in Windows also.
@@ -147,26 +175,4 @@ A. You can avoid the 'ask for name' prompt by putting the script name into the `
   ]
 }
 ```
-
-## Supported launch.json settings:
-
-| Property | Type | Description | Default Value |
-| --- | --- | --- | --- |
-| `program` | string | Absolute path to a script. | *${workspaceFolder}/${command:AskForScriptName}* |
-| `cwd` | string | Absolute path to the directory of the program being debugged. | *${workspaceFolder}* |
-| `targetSpecifier` | string | The target specifier in which the program will be debugged. | *empty* |
-| `engineName` | string | The engine name in which the program will be debugged. | *empty* |
-| `targetStartedSession` | boolean | Session target started. | *false* |
-| `breakXML` | string | The break XML in case target started the session. | *""* |
-| `excludes` | array | Excludes from variable display. Can be any combination of 'undefined', 'builtin', 'Function', 'prototype'. | *[ "undefined", "builtin", "Function", "prototype" ]* |
-| `maxArrayElements` | number | Enter the maximum number of array elements to display. | *20* |
-| `trace` | boolean | Enable logging of the ExtendScript debug session. | *true* |
-| `traceString` | string | Enable extended logging of the ExtendScript debug adapter. Should be one of 'V', 'L', 'W', 'E'. This stands for Verbose, Log, Warn and Error respectively. | *""* |
-| `logFile` | string | Enable logging of the ExtendScript debug session in this log file(Absolute Path). | *""* |
-| `dontBreakOnErrors` | boolean | Do Not Break on Guarded Exceptions | *true* |
-| `debugLevel` | number | Specify Debug Level: 0 - No Break, 1 - Break, 2 - Immediate Break | *1* |
-| `stopOnEntry` | boolean | Should be true if session should break immediately. | *false* |
-
-
-
 
