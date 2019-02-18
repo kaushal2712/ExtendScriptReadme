@@ -26,5 +26,7 @@
 * Target started debug session
 
 **Unsupported scenarios**
-* Debugging web workers
-* Any features that aren't script debugging.
+* Profiling Support
+* OMV
+* Functions/Auto-Completion
+* Scripts Panel
